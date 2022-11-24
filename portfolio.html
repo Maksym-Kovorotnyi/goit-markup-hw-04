@@ -37,10 +37,20 @@
         </nav>
         <ul class="list-contacts contacts-container list">
           <li class="list-contacts-item">
-            <a href="mailto:info@devstudio.com" class="contact link">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="contact link">
+              <svg class="mail-icon" width="16" height="12">
+                <use href="./images/icons/icons.svg#mail"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
           <li class="list-contacts-item">
-            <a href="tel:+38096111111" class="contact link">+38 096 111 11 11</a>
+            <a href="tel:+38096111111" class="contact link">
+              <svg class="smartphone-icon" width="10" height="16">
+                <use href="./images/icons/icons.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
           </li>
         </ul>
       </div>
@@ -179,10 +189,10 @@
     </main>
     <!-- підвал -->
     <footer class="footer">
-      <div class="container">
+      <div class="footer-container container">
+        <div class="adress-container">
         <a href="./index.html" lang="en" class="footer-logo link"
-          ><span class="accent-logo">Web</span>Studio</a
-        >
+          ><span class="accent-logo">Web</span>Studio</a>
         <address class="footer-address">
           <ul class="list-footer list">
             <li class="list-footer-item">
@@ -201,7 +211,41 @@
               <a href="tel:+380961111111" class="contact-footer link">+38 096 111 11 11</a>
             </li>
           </ul>
+          </div>
         </address>
+        <div class="join-container">
+          <h2 class="join-title">приєднуйтесь</h2>
+          <ul class="join-list list">
+            <li class="join-icon-item">
+              <a href="" class="join-link link">
+                <svg class="join-icon" width="20" height="20">
+                  <use href="/images/icons/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join-icon-item">
+              <a href="#" class="join-link link">
+                <svg class="join-icon" width="20" height="20">
+                  <use href="/images/icons/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join-icon-item">
+              <a href="" class="join-link link">
+                <svg class="join-icon" width="20" height="20">
+                  <use href="/images/icons/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join-icon-item">
+              <a href="" class="join-link link">
+                <svg class="join-icon" width="20" height="20">
+                  <use href="/images/icons/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
