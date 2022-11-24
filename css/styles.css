@@ -160,7 +160,8 @@ fill: currentColor;
     padding-bottom: 200px;
     padding-top: 200px;
     text-align: center;
-    background-image: url("/images/bcg_Img.jpg"), linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+    background-image:  linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/bcg_Img.jpg);
     background-size: cover;
     background-position: center;
     
