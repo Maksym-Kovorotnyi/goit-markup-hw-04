@@ -161,7 +161,7 @@ fill: currentColor;
     padding-top: 200px;
     text-align: center;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(./images/bcg_Img.jpg);
+    url(/images/bcg_Img.jpg);
     background-size: cover;
     background-position: center;
     
